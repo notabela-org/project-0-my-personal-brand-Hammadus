@@ -7,11 +7,11 @@ div.main-content {
     overflow: hidden;
 }
 
-aside {
-    display: block;
-    float: left;
-    width: 50%;
-    max-width: 250px;
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .title {
@@ -36,14 +36,17 @@ code {
     font-size: 14px;
 }
 
-p, li {
-   font-size: 16px;
-   line-height: 1.5em; 
-}
-
 .navbar .navbar-nav .nav-link {
     color: #B58900;
     text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+#media {
+    font-size: large;
 }
 
 a:link, 
